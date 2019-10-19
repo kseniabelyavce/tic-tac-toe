@@ -2828,7 +2828,7 @@ describe('TicTacToe', () => {
         });
     });
     describe('#isFinished', () => {
-        it('should return winner of the game or null', () => {
+        it('should return true if game is finished', () => {
             let game;
 
             game = new TicTacToe();
